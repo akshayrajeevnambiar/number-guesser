@@ -44,23 +44,21 @@ body {
   color: gray;
 }
 
-.btn {
-  cursor: pointer;
-}
-
 .btn #btn1 {
   padding: 0.7rem 1rem;
   border-right: 2px solid rgb(81, 81, 255);
+  cursor: pointer;
 }
 
 .btn #btn2 {
   padding: 0.7rem 1rem;
+  cursor: pointer;
 }
 
 .guess-btn {
   color: white;
   border-radius: 2rem;
-  background-color: blue;
+  background-color: gray;
   padding: 0.3rem 1.3rem;
   margin: 1rem;
   cursor: pointer;

@@ -14,17 +14,17 @@
       <div class="card computer">
         <h3>Computer</h3>
         <h4>Score: 0</h4>
-        <h1>8</h1>
+        <h1 id="computer-number">8</h1>
       </div>
       <div class="card user">
         <h3>You</h3>
         <h4>Score: 0</h4>
-        <h1>8</h1>
+        <h1 id="user-number">0</h1>
         <div class="btn">
-          <div id="btn1">-</div>
-          <div id="btn2">+</div>
+          <div id="btn1" onclick="decrementNumber()">-</div>
+          <div id="btn2" onclick="incrementNumber()">+</div>
         </div>
-        <div class="guess-btn">
+        <div class="guess-btn" onclick="makePrediction()">
           <h3>Make a guess</h3>
         </div>
       </div>
@@ -51,4 +51,5 @@
       </div>
     </footer>
   </body>
+  <script src="scripts.js"></script>
 </html>
